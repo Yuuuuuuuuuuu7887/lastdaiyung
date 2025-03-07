@@ -1,0 +1,62 @@
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/Front/css/design.css">
+    <link rel="stylesheet" href="/Front/css/addDesign.css">
+    <link rel="stylesheet" href="/Front/css/designset.css">
+    <!-- <link rel="stylesheet" href="/Front/css/profile.css"> -->
+    <link rel="stylesheet" href="/Front/css/design_login.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" charset="UTF-8"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+</head>
+
+<body class="body">
+    <div class="foundify" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+        <a style="flex-grow: 1; text-align: center;">Foundify</a>
+        <label class="switch">
+            <input type="checkbox" id="toggleMode">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <div class="pageset1" id="page1">
+        <div>
+            <div class="wrapper" id="signButton" style="border-radius: 50px; box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);">
+                <i class="bi bi-person-fill"></i>
+
+                    <a href="login.php" class="login-link" style="color: rgb(75, 75, 75);"> Log In / Sign up</a>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container d-flex justify-content-around d-flex2">
+            <a href="index.php" id="homeLink" class="footer-icon"><i class="bi bi-house-door-fill"></i></a>
+            <a href="search.php" id="searchLink" class="footer-icon"><i class="bi bi-search-heart-fill"></i></a>
+            <a href="add.php" id="addLink" class="footer-icon"><i class="bi bi-plus-circle-fill"></i></a>
+            <a href="signup_login.php" id="setLink" class="footer-icon"><i class="bi bi-person-fill"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/darkMode.js"></script>
+</body>
+
+</html>
